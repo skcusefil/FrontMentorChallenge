@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mandali&family=Montserrat+Alternates&display=swap');
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --font400: 400;
+    --font700: 700;
+    --font15:15px;
+  }
+  
+  html, body{
+    font-family: 'Mandali', sans-serif;
+    background-color: var(--VeryDarkBlue);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  p{
+    font-size: var(--font15);
+  }
+  
+  h1{
+    font-weight: var(--font700);
+    padding: 0;
+    margin: 0;
+    color: var(--White);
+  }
+  
+  button{
+    font-weight: 400;
+  }
+  
+  .icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--MediumGrey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content-box{
+    border-radius: 30px;
+    width: 300px;
+    padding: 25px;
+    background-color: var(--DarkBlue);
+  }
+  
+  .list-btn{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+  }
+
+  .icon-rating{
+    margin-bottom: 25px;
+    margin-top: 5px;
+  }
+
+  .first-content{
+    display: block;
+  }
+  
+  .list-btn button{
+    background-color: var(--MediumGrey);
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    color: var(--LightGrey);
+    cursor: pointer;
+  }
+
+  .list-btn button:hover {
+    background-color: var(--Orange);
+    color: var(--White);
+  }
+
+  .list-btn button:focus{
+    background-color: var(--Orange);
+    color: var(--White);
+  }
+  
+  
+  .submit-btn{
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--Orange);
+    color: white;
+    padding: 10px 20px;
+    font-size: var(--font15);
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+    .submit-btn:hover{
+        background-color: var(--White);
+        color: var(--Orange);
+    }
+
+    .rating{
+    display: none;
+    }
+
+    .rating-content{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .rating-text{
+    margin: 25px 0;
+    text-align: center;
+    color:var(--White);
+    }
+
+.result_container{
+    background-color: var(--MediumGrey);
+    padding: 5px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: var(--Orange);
+    text-align: center;
+    margin-bottom: 25px;
+    width: fit-content;
+}
+      
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+  
+      @media only screen and (max-width: 375px) {
+      }
+  
+      @media only screen and (max-width: 1440px) {
+      }
+  
