@@ -1,5 +1,29 @@
 var current_selected_btn;
 
+// // create button from javascript
+// window.addEventListener("load", () => {
+//     var test = document.getElementById("createBtnInJS")
+
+//     //Create 5 Buttons 
+//     for(var i = 0 ; i<5; i++){
+//         var button = document.createElement("button");
+//         var count = i+1;
+//         button.innerHTML = count;
+//         button.id = count;
+        
+//         //Add event click to button
+//         button.addEventListener('click',(e) => {
+//             current_selected_btn = e.target.id;
+//         })
+//     }
+
+//     //adding submit event click to submit button
+//     var submid_btn = document.getElementById("submid-btn")
+//     submid_btn.addEventListener('click', (e) => {
+//         submit()
+//     })
+// })
+
 
 function click_btn(btn_id)
 {
